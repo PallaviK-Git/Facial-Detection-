@@ -4,32 +4,32 @@ from deepface import DeepFace
 
 
 app=Flask(__name__)
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(1)
 
 def emotion_check(expression):
 
     show = ""
     
     if expression == 'happy':
-        show = "Hey, That's an absolutely beautiful smile"
+        show = "Happy? Hey, That's a beautiful smile"
     
     elif expression == 'sad':
-        show = 'Say Cheese!!'
+        show = 'Sad? - Say Cheese!!'
     
     elif expression == 'neutral':
-        show = 'Wide SMILE :) !!'
+        show = 'Neutral? - Give a Wide SMILE :) !!'
     
     elif expression == 'disgust':
-        show = "Say EEEEEEEEEEEEE"
+        show = "Disgusted? - Say EEEEEEEEEE"
 
     elif expression == 'angry':
-        show = 'Show us that beautiful smile of yours'
+        show = 'Angry? - Show your beautiful smile'
     
     elif expression == 'fear':
-        show = 'Want to talk about something?'
+        show = 'Fear? Want to talk about something?'
 
     elif expression == 'Surprise':
-        show = 'Surprisee!!!!'        
+        show = 'Surprise? Surprisee!!!!'        
     return show
 
 def generate_frames():  
