@@ -1,4 +1,4 @@
-# Facial Detection #
+# Serotonin Booster #
 ## This is project created by Team Constellation for SF Hacks ##
 
 ### Important before running project: ###
