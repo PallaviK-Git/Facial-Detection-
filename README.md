@@ -1,5 +1,6 @@
-# Serotonin Booster #
-## This is project created by Team Constellation for SF Hacks ##
+# Emotion Detection #
+
+This project utilises Computer Vision to display a person's mood by analysing the face
 
 ### Important before running project: ###
  - pip install
